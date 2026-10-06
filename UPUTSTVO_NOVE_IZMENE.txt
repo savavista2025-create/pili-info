@@ -1,0 +1,9 @@
+1. Sačuvaj rezervnu kopiju postojećeg foldera i baze.
+2. U Supabase SQL Editoru pokreni MIGRACIJA_2026_PROMET_PLATE_PDV.sql JEDNOM.
+3. Raspakuj projekat preko postojećeg foldera, ali ZADRŽI .env.local iz postojećeg foldera.
+4. npm install, npm run dev -- -p 3001.
+5. Aplikacija za račun: npm install, npm run dev -- -p 3002.
+6. Stare evidencije prometâ i plata nisu menjane; stari promet nema raspodelu po PDV stopama.
+7. Porezi i doprinosi se prepisuju iz verifikovanog obračuna. Automatsko preuzimanje od eksternog kalkulatora nije povezano: potreban je konkretan API ili obračunski fajl.
+8. Pravo na odbitak PDV-a nije moguće sa sigurnošću utvrditi iz fotografije; AI daje samo upozorenje.
+9. Bez .env.local aplikacije ne mogu povezati postojeći Supabase ili AI.

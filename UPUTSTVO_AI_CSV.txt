@@ -1,0 +1,9 @@
+PILI INFO — NOVO
+1. Na Plate -> Uvoz obracuna plata (CSV), izaberi izvoz iz obracunskog softvera.
+2. Pregledaj poklapanje imena. Aplikacija ne kreira radnike i preskace duplikate.
+3. Potvrdi mesecni uvoz. Obracun ide u tabelu plate za izabrani mesec, ne menja maticne podatke. Ne zamenjuj postojece podatke ako nisi sacuvao kopiju baze.
+4. Za AI predlog odbitka: pokreni pili-unos-troska, slikaj racun i pritisni PROCITAJ RACUN.
+5. AI prikazuje predlog, ali kategorija prava na odbitak ostaje PROVERA dok je korisnik ne izabere.
+6. Prvo pokreni ranije isporucene SQL migracije u Supabase SQL Editoru.
+7. Sacuvaj originalne .env.local fajlove; NISU spakovani u ZIP.
+8. Nije povezano sa spoljnim kalkulatorom preko API-ja. CSV je ulaz iz izvoza kalkulatora.
